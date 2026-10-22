@@ -21,7 +21,8 @@ jobs:
           persist-credentials: false
 
       - name: Check spelling
-        uses: codespell-project/actions-codespell@8f01853be192eb0f849a5c7d721450e7a467c579 # v2.3.0
+        uses: codespell-project/actions-codespell@e3258cca84ce02b0bb36a3d41f2c18f719a0cc1a # v2.4.3
         with:
           check_filenames: true
           check_hidden: true
+
