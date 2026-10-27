@@ -1,5 +1,6 @@
 # From https://github.com/go-skynet/LocalAI/blob/master/Dockerfile
-FROM quay.io/go-skynet/local-ai:v4.12.1-gpu-vulkan
+# FROM quay.io/go-skynet/local-ai:v4.12.1-gpu-vulkan
+FROM quay.io/go-skynet/local-ai:latest-gpu-vulkan
 
 # Needed for Nextcloud AIO so that image cleanup can work.
 # Unfortunately, this needs to be set in the Dockerfile in order to work.
