@@ -37,7 +37,7 @@ jobs:
         with:
           images: ghcr.io/${{ github.repository }}
           tags: |
-            type=raw,value=main
+            type=raw,value=aio-v1
             type=ref,event=pr
             type=semver,pattern={{major}}.{{minor}}.{{patch}}
             type=semver,pattern=v{{major}}
